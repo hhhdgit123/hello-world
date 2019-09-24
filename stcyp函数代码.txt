@@ -15,4 +15,6 @@ char * strcpy(char *dest, char *src)
  
 	return pTemp;
 }
+
 /*更艰苦撒旦艰苦*/
+
