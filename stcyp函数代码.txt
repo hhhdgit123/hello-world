@@ -1,0 +1,17 @@
+
+char * strcpy(char *dest, char *src)
+{
+	if (dest == NULL || src == NULL)
+	{
+		return NULL;
+	}
+ 
+	char *pTemp = dest;
+ 
+	while ((*dest++ = *src++) != '\0')
+	{
+		//空函数体
+	}
+ 
+	return pTemp;
+}
